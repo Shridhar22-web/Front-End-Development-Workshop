@@ -1,0 +1,104 @@
+body {
+    background: #fafafa;
+    font-family: 'Georgia', serif;
+    padding: 40px;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 650px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #f15b5b;
+    color: #fff;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.info-row {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.info-row span {
+    margin-right: 20px;
+}
+
+
+.section-title {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.instructions-title {
+    color: #d93025; 
+}
+
+
+.ingredients-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.ingredients-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.ingredients-list li::before {
+    content: "✓";
+    color: #ff6868;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.instructions {
+    padding-left: 18px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.instructions li {
+    margin-bottom: 12px;
+}
+
+
+.highlight {
+    background: #fff3b0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.tip-box {
+    background: #e9f6ff;
+    border-left: 5px solid #1da1f2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 15px;
+}
